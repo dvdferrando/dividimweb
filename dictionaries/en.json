@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "siteTitle": "Dividim",
+    "siteDescription": "Split expenses easily with friends. Available on iOS and Android."
+  },
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+  "aria": {
+    "mainNav": "Main navigation",
+    "homeLink": "Dividim — Home",
+    "languageSwitch": "Language"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "appStore": {
+    "line1": "Download on the",
+    "line2": "App Store"
+  },
+  "googlePlay": {
+    "line1": "Get it on",
+    "line2": "Google Play",
+    "badge": "Coming soon"
+  },
+  "home": {
+    "badge": "iOS & Android",
+    "tagline": "Split expenses easily with friends",
+    "getInTouch": "Get in touch",
+    "storesHint": "Download Dividim from your favourite store.",
+    "featuresTitle": "Freemium vs Pro",
+    "featuresSubtitle": "Start free with Freemium or upgrade to Pro for unlimited projects, recurring expenses, exports and charts.",
+    "freemiumTitle": "Freemium",
+    "freemiumDesc": "Great to get started",
+    "freemiumFeatures": [
+      "1 active project",
+      "Add basic expenses",
+      "Add receipt photos to expenses",
+      "Push notifications"
+    ],
+    "proTitle": "Pro",
+    "proDesc": "For power users and groups",
+    "proFeatures": [
+      "Unlimited projects",
+      "Recurring expenses",
+      "Share and export CSV & PDF",
+      "Charts",
+      "Scan receipts to create expenses automatically"
+    ],
+    "compareTitle": "Quick comparison",
+    "compareColFeature": "Feature",
+    "compareColFree": "Free",
+    "compareColPro": "Pro",
+    "compareRows": [
+      { "feature": "Active projects", "free": "1", "pro": "Unlimited" },
+      { "feature": "Basic expenses", "free": "✓", "pro": "✓" },
+      { "feature": "Receipt photos (attach to expenses)", "free": "✓", "pro": "✓" },
+      { "feature": "Push notifications", "free": "✓", "pro": "✓" },
+      { "feature": "Recurring expenses", "free": "—", "pro": "✓" },
+      { "feature": "CSV & PDF export", "free": "—", "pro": "✓" },
+      { "feature": "Charts", "free": "—", "pro": "✓" },
+      { "feature": "Receipt scanning (auto-create expenses)", "free": "—", "pro": "✓" }
+    ],
+    "permissionNote": "All permissions (camera, contacts, notifications) follow Apple and Google privacy policies.",
+    "screenshotsTitle": "Screenshots",
+    "screenshotsSubtitle": "A quick look at the in-app experience.",
+    "screenshotsScrollHint": "Scroll sideways to see more screenshots.",
+    "shotBalances": "Balances",
+    "shotGroups": "Groups",
+    "shotSettle": "Settle up",
+    "questions": "Questions?",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "privacy": {
+    "title": "Privacy Policy – Dividim",
+    "description": "How Dividim collects, uses and protects your data.",
+    "updated": "Last updated: March 22, 2025",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "paragraphs": [
+          "Dividim respects the privacy of its users and complies with Apple and Google Play policies and applicable data protection law (including GDPR). This policy explains what information we collect, how we use it, and your rights as a user."
+        ]
+      },
+      {
+        "title": "2. Information we collect",
+        "paragraphs": [
+          "Dividim may access the following data with your explicit consent:"
+        ],
+        "bullets": [
+          "Push notifications: to notify you about project updates, shared expenses and reminders. You can turn them off at any time in your device settings.",
+          "Camera and photos: to let users add or change profile photos and project photos in the app.",
+          "Contacts: to make it easier to add collaborators to projects. Contact data is not stored or shared with third parties.",
+          "Anonymous usage information: for analytics and to improve the app experience."
+        ]
+      },
+      {
+        "title": "3. Use of information",
+        "paragraphs": [
+          "Information collected is used solely to:"
+        ],
+        "bullets": [
+          "Manage projects and collaboration within the app",
+          "Improve features and user experience",
+          "Send service communications and important notices"
+        ]
+      },
+      {
+        "title": "4. Sharing of data",
+        "paragraphs": [
+          "We do not share personal data with third parties without your explicit consent. Data may only be shared with third-party services that are strictly necessary for the app to function (e.g. notification services)."
+        ]
+      },
+      {
+        "title": "5. Security",
+        "paragraphs": [
+          "We implement standard technical and organisational measures to protect users’ information. All access to sensitive data is based on explicit consent and in line with Apple and Google policies."
+        ]
+      },
+      {
+        "title": "6. User rights",
+        "paragraphs": ["You have the right to:"],
+        "bullets": [
+          "Access your data",
+          "Rectify or delete personal information",
+          "Revoke permissions granted within the app",
+          "Contact us with any questions about your data"
+        ]
+      },
+      {
+        "title": "7. Consent and revocation",
+        "paragraphs": [
+          "By installing and using Dividim, you accept this privacy policy and the use of the permissions described. You can revoke permissions at any time in your device settings."
+        ]
+      },
+      {
+        "title": "8. Contact",
+        "paragraphs": [
+          "If you have questions or wish to exercise your rights, contact us at:"
+        ],
+        "emailLine": true
+      },
+      {
+        "title": "9. Changes to the policy",
+        "paragraphs": [
+          "Dividim may update this policy. New versions will be published at this URL and within the app. We recommend reviewing the policy periodically for any updates."
+        ]
+      },
+      {
+        "title": "10. App Store compliance",
+        "paragraphs": [
+          "All permissions and data collected by Dividim are handled in accordance with Apple and Google Play policies. Information shown to users is clear, transparent and only for the purposes described in this policy."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms governing use of the Dividim app and website.",
+    "updated": "Last updated: March 22, 2025",
+    "p1": "This is placeholder text for the Dividim terms of service. Replace it with your real terms covering eligibility, acceptable use, disclaimers, limitation of liability, and termination.",
+    "p2": "These terms should reflect how your app works—especially features related to money, groups, and shared expenses—and comply with App Store guidelines.",
+    "h2agree": "Agreement to terms",
+    "p3": "Placeholder: by using Dividim, users agree to these terms and any updates posted here.",
+    "h2use": "Use of the service",
+    "p4": "Placeholder: describe permitted use, prohibited conduct, and responsibility for shared expenses between users.",
+    "h2contact": "Contact",
+    "p5": "For questions about these terms, contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact Dividim support.",
+    "intro": "We'd love to hear from you. For support, feedback, or press inquiries, reach out by email.",
+    "formSoon": "A web form is coming soon. For now, please use the email below.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send"
+  }
+}

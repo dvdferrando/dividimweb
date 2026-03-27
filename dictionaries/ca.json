@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "siteTitle": "Dividim",
+    "siteDescription": "Divideix despeses fàcilment amb amics. Disponible per a iOS i Android."
+  },
+  "nav": {
+    "home": "Inici",
+    "privacy": "Privacitat",
+    "terms": "Condicions",
+    "contact": "Contacte"
+  },
+  "aria": {
+    "mainNav": "Navegació principal",
+    "homeLink": "Dividim — Inici",
+    "languageSwitch": "Idioma"
+  },
+  "footer": {
+    "rights": "Tots els drets reservats."
+  },
+  "appStore": {
+    "line1": "Descarrega a",
+    "line2": "l'App Store"
+  },
+  "googlePlay": {
+    "line1": "Disponible a",
+    "line2": "Google Play",
+    "badge": "Pròximament"
+  },
+  "home": {
+    "badge": "iOS i Android",
+    "tagline": "Divideix despeses fàcilment amb amics",
+    "getInTouch": "Contacta",
+    "storesHint": "Descarrega Dividim a la teva botiga habitual.",
+    "featuresTitle": "Freemium i Pro",
+    "featuresSubtitle": "Comença gratis amb el pla Freemium o passa a Pro per a projectes il·limitats, despeses recurrents, exportacions i gràfics.",
+    "freemiumTitle": "Freemium",
+    "freemiumDesc": "Perfecte per començar",
+    "freemiumFeatures": [
+      "1 projecte actiu",
+      "Afegeix despeses bàsiques",
+      "Afegir fotos dels tiquets a les despeses",
+      "Notificacions push"
+    ],
+    "proTitle": "Pro",
+    "proDesc": "Per a grups i control total",
+    "proFeatures": [
+      "Projectes il·limitats",
+      "Despeses recurrents",
+      "Comparteix i exporta CSV i PDF",
+      "Gràfics",
+      "Escaneig de tiquets per crear despeses automàticament"
+    ],
+    "compareTitle": "Comparativa ràpida",
+    "compareColFeature": "Funció",
+    "compareColFree": "Gratuït",
+    "compareColPro": "Pro",
+    "compareRows": [
+      { "feature": "Projectes actius", "free": "1", "pro": "Il·limitats" },
+      { "feature": "Despeses bàsiques", "free": "✓", "pro": "✓" },
+      { "feature": "Fotos de tiquets (adjuntar a despeses)", "free": "✓", "pro": "✓" },
+      { "feature": "Notificacions push", "free": "✓", "pro": "✓" },
+      { "feature": "Despeses recurrents", "free": "—", "pro": "✓" },
+      { "feature": "Exportació CSV i PDF", "free": "—", "pro": "✓" },
+      { "feature": "Gràfics", "free": "—", "pro": "✓" },
+      { "feature": "Escaneig de tiquets (despeses automàtiques)", "free": "—", "pro": "✓" }
+    ],
+    "permissionNote": "Tots els permisos (càmera, contactes, notificacions) segueixen les polítiques de privacitat d’Apple i Google.",
+    "screenshotsTitle": "Captures",
+    "screenshotsSubtitle": "Un cop d’ull a l’experiència a l’app.",
+    "screenshotsScrollHint": "Llisca horitzontalment per veure més captures.",
+    "shotBalances": "Saldos",
+    "shotGroups": "Grups",
+    "shotSettle": "Tancar comptes",
+    "questions": "Preguntes?",
+    "privacy": "Política de privacitat",
+    "terms": "Condicions del servei"
+  },
+  "privacy": {
+    "title": "Política de privacitat – Dividim",
+    "description": "Com Dividim recull, usa i protegeix les teves dades.",
+    "updated": "Darrera actualització: 22 de març de 2025",
+    "sections": [
+      {
+        "title": "1. Introducció",
+        "paragraphs": [
+          "Dividim respecta la privacitat dels seus usuaris i compleix amb les polítiques d’Apple, Google Play i la normativa de protecció de dades aplicable (inclòs GDPR). Aquesta política explica quina informació recollim, com la utilitzem i els drets que tens com a usuari."
+        ]
+      },
+      {
+        "title": "2. Informació que recollim",
+        "paragraphs": [
+          "Dividim pot accedir a les següents dades amb el teu consentiment explícit:"
+        ],
+        "bullets": [
+          "Notificacions push: per avisar sobre actualitzacions dels projectes, despeses compartides i recordatoris. Pots desactivar-les en qualsevol moment des de la configuració del dispositiu.",
+          "Càmera i fotos: per permetre als usuaris afegir o modificar fotos de perfil i fotos de projectes dins l’app.",
+          "Contactes: per facilitar l’afegiment de col·laboradors als projectes. Les dades dels contactes no es guarden ni es comparteixen amb tercers.",
+          "Informació d’ús anònima: per analytics i millorar l’experiència de l’app."
+        ]
+      },
+      {
+        "title": "3. Ús de la informació",
+        "paragraphs": [
+          "La informació recollida s’utilitza exclusivament per:"
+        ],
+        "bullets": [
+          "Gestionar els projectes i la col·laboració dins l’app",
+          "Millorar funcionalitats i experiència d’usuari",
+          "Enviar comunicacions de servei i avisos importants"
+        ]
+      },
+      {
+        "title": "4. Compartició de dades",
+        "paragraphs": [
+          "No compartim dades personals amb tercers sense el teu consentiment explícit. Les dades poden ser compartides només amb serveis de tercers estrictament necessaris per al funcionament de l’app (ex.: serveis de notificacions)."
+        ]
+      },
+      {
+        "title": "5. Seguretat",
+        "paragraphs": [
+          "Implementem mesures tècniques i organitzatives estàndard per protegir la informació dels usuaris. Tot l’accés a dades sensibles es realitza amb consentiment explícit i segons les polítiques d’Apple i Google."
+        ]
+      },
+      {
+        "title": "6. Drets dels usuaris",
+        "paragraphs": ["Tens dret a:"],
+        "bullets": [
+          "Accedir a les teves dades",
+          "Rectificar o eliminar la informació personal",
+          "Revocar permisos concedits dins l’app",
+          "Contactar-nos per qualsevol dubte sobre les teves dades"
+        ]
+      },
+      {
+        "title": "7. Consentiment i revocació",
+        "paragraphs": [
+          "En instal·lar i utilitzar Dividim, acceptes aquesta política de privacitat i l’ús de permisos indicats. Pots revocar permisos en qualsevol moment des de la configuració del dispositiu."
+        ]
+      },
+      {
+        "title": "8. Contacte",
+        "paragraphs": [
+          "Si tens dubtes o vols exercir els teus drets, contacta’ns a:"
+        ],
+        "emailLine": true
+      },
+      {
+        "title": "9. Canvis en la política",
+        "paragraphs": [
+          "Dividim pot actualitzar aquesta política. Les noves versions es publicaran a aquesta mateixa URL i dins l’app. Recomanem revisar periòdicament la política per conèixer possibles actualitzacions."
+        ]
+      },
+      {
+        "title": "10. Compliment amb App Stores",
+        "paragraphs": [
+          "Tots els permisos i dades recollides per Dividim es gestionen segons les polítiques d’Apple i Google Play. La informació mostrada als usuaris és clara, transparent i només amb les finalitats descrites en aquesta política."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Condicions del servei",
+    "description": "Condicions d'ús de l'app Dividim i el web.",
+    "updated": "Darrera actualització: 22 de març de 2025",
+    "p1": "Aquest és un text de prova per a les condicions del servei de Dividim. Substitueix-lo per les condicions reals: elegibilitat, ús acceptable, exempcions, limitació de responsabilitat i resolució.",
+    "p2": "Les condicions han de reflectir com funciona la teva app—especialment funcions relacionades amb diners, grups i despeses compartides—i complir les directrius de l'App Store.",
+    "h2agree": "Acceptació de les condicions",
+    "p3": "Text de prova: en usar Dividim, l'usuari accepta aquestes condicions i les actualitzacions publicades aquí.",
+    "h2use": "Ús del servei",
+    "p4": "Text de prova: descriu l'ús permès, conductes prohibides i responsabilitat en les despeses compartides entre usuaris.",
+    "h2contact": "Contacte",
+    "p5": "Per a preguntes sobre aquestes condicions, escriu a"
+  },
+  "contact": {
+    "title": "Contacte",
+    "description": "Contacta amb el suport de Dividim.",
+    "intro": "Ens encantaria saber de tu. Per suport, comentaris o premsa, escriu-nos per correu.",
+    "formSoon": "El formulari web estarà disponible aviat. De moment, utilitza el correu de sota.",
+    "formName": "Nom",
+    "formEmail": "Correu",
+    "formMessage": "Missatge",
+    "formSubmit": "Enviar"
+  }
+}

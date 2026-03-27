@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "siteTitle": "Dividim",
+    "siteDescription": "Divide gastos fácilmente con amigos. Disponible en iOS y Android."
+  },
+  "nav": {
+    "home": "Inicio",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto"
+  },
+  "aria": {
+    "mainNav": "Navegación principal",
+    "homeLink": "Dividim — Inicio",
+    "languageSwitch": "Idioma"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "appStore": {
+    "line1": "Descarga en la",
+    "line2": "App Store"
+  },
+  "googlePlay": {
+    "line1": "Disponible en",
+    "line2": "Google Play",
+    "badge": "Próximamente"
+  },
+  "home": {
+    "badge": "iOS y Android",
+    "tagline": "Divide gastos fácilmente con amigos",
+    "getInTouch": "Contactar",
+    "storesHint": "Descarga Dividim en tu tienda habitual.",
+    "featuresTitle": "Freemium y Pro",
+    "featuresSubtitle": "Empieza gratis con Freemium o pasa a Pro para proyectos ilimitados, gastos recurrentes, exportaciones y gráficos.",
+    "freemiumTitle": "Freemium",
+    "freemiumDesc": "Ideal para empezar",
+    "freemiumFeatures": [
+      "1 proyecto activo",
+      "Añade gastos básicos",
+      "Añadir fotos de tickets a los gastos",
+      "Notificaciones push"
+    ],
+    "proTitle": "Pro",
+    "proDesc": "Para grupos y uso intensivo",
+    "proFeatures": [
+      "Proyectos ilimitados",
+      "Gastos recurrentes",
+      "Comparte y exporta CSV y PDF",
+      "Gráficos",
+      "Escaneo de tickets para crear gastos automáticamente"
+    ],
+    "compareTitle": "Comparativa rápida",
+    "compareColFeature": "Función",
+    "compareColFree": "Gratis",
+    "compareColPro": "Pro",
+    "compareRows": [
+      { "feature": "Proyectos activos", "free": "1", "pro": "Ilimitados" },
+      { "feature": "Gastos básicos", "free": "✓", "pro": "✓" },
+      { "feature": "Fotos de tickets (adjuntar a gastos)", "free": "✓", "pro": "✓" },
+      { "feature": "Notificaciones push", "free": "✓", "pro": "✓" },
+      { "feature": "Gastos recurrentes", "free": "—", "pro": "✓" },
+      { "feature": "Exportación CSV y PDF", "free": "—", "pro": "✓" },
+      { "feature": "Gráficos", "free": "—", "pro": "✓" },
+      { "feature": "Escaneo de tickets (gastos automáticos desde el ticket)", "free": "—", "pro": "✓" }
+    ],
+    "permissionNote": "Todos los permisos (cámara, contactos, notificaciones) siguen las políticas de privacidad de Apple y Google.",
+    "screenshotsTitle": "Capturas",
+    "screenshotsSubtitle": "Un vistazo a la experiencia en la app.",
+    "screenshotsScrollHint": "Desplázate horizontalmente para ver más capturas.",
+    "shotBalances": "Saldos",
+    "shotGroups": "Grupos",
+    "shotSettle": "Liquidar",
+    "questions": "¿Preguntas?",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio"
+  },
+  "privacy": {
+    "title": "Política de privacidad – Dividim",
+    "description": "Cómo Dividim recoge, usa y protege tus datos.",
+    "updated": "Última actualización: 22 de marzo de 2025",
+    "sections": [
+      {
+        "title": "1. Introducción",
+        "paragraphs": [
+          "Dividim respeta la privacidad de sus usuarios y cumple con las políticas de Apple, Google Play y la normativa de protección de datos aplicable (incluido el GDPR). Esta política explica qué información recogemos, cómo la utilizamos y los derechos que tienes como usuario."
+        ]
+      },
+      {
+        "title": "2. Información que recopilamos",
+        "paragraphs": [
+          "Dividim puede acceder a los siguientes datos con tu consentimiento explícito:"
+        ],
+        "bullets": [
+          "Notificaciones push: para avisarte sobre actualizaciones de proyectos, gastos compartidos y recordatorios. Puedes desactivarlas en cualquier momento desde la configuración del dispositivo.",
+          "Cámara y fotos: para permitir a los usuarios añadir o modificar fotos de perfil y fotos de proyectos dentro de la app.",
+          "Contactos: para facilitar añadir colaboradores a los proyectos. Los datos de contacto no se guardan ni se comparten con terceros.",
+          "Información de uso anónima: para analíticas y mejorar la experiencia de la app."
+        ]
+      },
+      {
+        "title": "3. Uso de la información",
+        "paragraphs": [
+          "La información recogida se utiliza exclusivamente para:"
+        ],
+        "bullets": [
+          "Gestionar los proyectos y la colaboración dentro de la app",
+          "Mejorar funcionalidades y experiencia de usuario",
+          "Enviar comunicaciones de servicio y avisos importantes"
+        ]
+      },
+      {
+        "title": "4. Compartición de datos",
+        "paragraphs": [
+          "No compartimos datos personales con terceros sin tu consentimiento explícito. Los datos solo pueden compartirse con servicios de terceros estrictamente necesarios para el funcionamiento de la app (p. ej., servicios de notificaciones)."
+        ]
+      },
+      {
+        "title": "5. Seguridad",
+        "paragraphs": [
+          "Implementamos medidas técnicas y organizativas habituales para proteger la información de los usuarios. Todo el acceso a datos sensibles se realiza con consentimiento explícito y según las políticas de Apple y Google."
+        ]
+      },
+      {
+        "title": "6. Derechos de los usuarios",
+        "paragraphs": ["Tienes derecho a:"],
+        "bullets": [
+          "Acceder a tus datos",
+          "Rectificar o eliminar la información personal",
+          "Revocar los permisos concedidos dentro de la app",
+          "Contactarnos para cualquier duda sobre tus datos"
+        ]
+      },
+      {
+        "title": "7. Consentimiento y revocación",
+        "paragraphs": [
+          "Al instalar y usar Dividim, aceptas esta política de privacidad y el uso de los permisos indicados. Puedes revocar los permisos en cualquier momento desde la configuración del dispositivo."
+        ]
+      },
+      {
+        "title": "8. Contacto",
+        "paragraphs": [
+          "Si tienes dudas o deseas ejercer tus derechos, contáctanos en:"
+        ],
+        "emailLine": true
+      },
+      {
+        "title": "9. Cambios en la política",
+        "paragraphs": [
+          "Dividim puede actualizar esta política. Las nuevas versiones se publicarán en esta misma URL y dentro de la app. Recomendamos revisar periódicamente la política para conocer posibles actualizaciones."
+        ]
+      },
+      {
+        "title": "10. Cumplimiento con las tiendas de aplicaciones",
+        "paragraphs": [
+          "Todos los permisos y datos recogidos por Dividim se gestionan según las políticas de Apple y Google Play. La información mostrada a los usuarios es clara, transparente y solo con las finalidades descritas en esta política."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos del servicio",
+    "description": "Condiciones de uso de la app Dividim y el sitio web.",
+    "updated": "Última actualización: 22 de marzo de 2025",
+    "p1": "Este es un texto de ejemplo para los términos del servicio de Dividim. Sustitúyelo por tus términos reales: elegibilidad, uso aceptable, descargos, limitación de responsabilidad y resolución.",
+    "p2": "Los términos deben reflejar cómo funciona tu app—especialmente funciones relacionadas con dinero, grupos y gastos compartidos—y cumplir las directrices de la App Store.",
+    "h2agree": "Aceptación de los términos",
+    "p3": "Texto de ejemplo: al usar Dividim, el usuario acepta estos términos y las actualizaciones publicadas aquí.",
+    "h2use": "Uso del servicio",
+    "p4": "Texto de ejemplo: describe el uso permitido, conductas prohibidas y responsabilidad en los gastos compartidos entre usuarios.",
+    "h2contact": "Contacto",
+    "p5": "Para preguntas sobre estos términos, escribe a"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Contacta con el soporte de Dividim.",
+    "intro": "Nos encantaría saber de ti. Para soporte, comentarios o prensa, escríbenos por correo.",
+    "formSoon": "El formulario web estará disponible pronto. Por ahora, usa el correo de abajo.",
+    "formName": "Nombre",
+    "formEmail": "Correo",
+    "formMessage": "Mensaje",
+    "formSubmit": "Enviar"
+  }
+}
