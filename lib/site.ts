@@ -1,6 +1,5 @@
-/** Replace via NEXT_PUBLIC_APP_STORE_ID in `.env.local` when the app is on the App Store. */
 export const APP_STORE_ID =
-  process.env.NEXT_PUBLIC_APP_STORE_ID ?? "0000000000";
+  process.env.NEXT_PUBLIC_APP_STORE_ID ?? "6757099982";
 
 export const appStoreUrl = `https://apps.apple.com/app/id${APP_STORE_ID}`;
 
