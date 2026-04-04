@@ -72,7 +72,7 @@ export function HomeScreenshots({ dict }: HomeScreenshotsProps) {
               role="region"
               aria-roledescription="carousel"
               aria-label={dict.home.screenshotsTitle}
-              className="snap-x snap-mandatory overflow-x-auto overscroll-x-contain scroll-smooth px-4 pb-1 [-webkit-overflow-scrolling:touch] [scrollbar-width:thin] sm:px-6"
+              className="snap-x snap-mandatory overflow-x-auto scroll-smooth px-4 pb-1 [-webkit-overflow-scrolling:touch] [scrollbar-width:thin] sm:px-6"
               tabIndex={0}
             >
               <div className="flex w-max max-w-none gap-4 py-2">

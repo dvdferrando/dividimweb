@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "Dividim",
-    "siteDescription": "Divideix despeses fàcilment amb amics. Disponible per a iOS i Android."
+    "siteDescription": "Divideix simplement. Disponible per a iOS i Android."
   },
   "nav": {
     "home": "Inici",
@@ -27,17 +27,15 @@
     "badge": "Pròximament"
   },
   "home": {
-    "badge": "iOS i Android",
-    "tagline": "Divideix despeses fàcilment amb amics",
-    "getInTouch": "Contacta",
+    "tagline": "Divideix simplement",
     "storesHint": "Descarrega Dividim a la teva botiga habitual.",
-    "featuresTitle": "Freemium i Pro",
-    "featuresSubtitle": "Comença gratis amb el pla Freemium o passa a Pro per a projectes il·limitats, despeses recurrents, exportacions i gràfics.",
+    "featuresTitle": "Gratuït i Pro",
+    "featuresSubtitle": "Comença gratis o passa a Pro per a projectes il·limitats, despeses recurrents, exportacions i gràfiques.",
     "freemiumTitle": "Freemium",
     "freemiumDesc": "Perfecte per començar",
     "freemiumFeatures": [
       "1 projecte actiu",
-      "Afegeix despeses bàsiques",
+      "Afegeix despeses il·limitades",
       "Afegir fotos dels tiquets a les despeses",
       "Notificacions push"
     ],
@@ -47,7 +45,7 @@
       "Projectes il·limitats",
       "Despeses recurrents",
       "Comparteix i exporta CSV i PDF",
-      "Gràfics",
+      "Gràfiques per projecte, període o data",
       "Escaneig de tiquets per crear despeses automàticament"
     ],
     "compareTitle": "Comparativa ràpida",
@@ -56,13 +54,13 @@
     "compareColPro": "Pro",
     "compareRows": [
       { "feature": "Projectes actius", "free": "1", "pro": "Il·limitats" },
-      { "feature": "Despeses bàsiques", "free": "✓", "pro": "✓" },
-      { "feature": "Fotos de tiquets (adjuntar a despeses)", "free": "✓", "pro": "✓" },
+      { "feature": "Despeses il·limitades", "free": "✓", "pro": "✓" },
+      { "feature": "Adjuntar fotos de tiquets", "free": "✓", "pro": "✓" },
       { "feature": "Notificacions push", "free": "✓", "pro": "✓" },
-      { "feature": "Despeses recurrents", "free": "—", "pro": "✓" },
-      { "feature": "Exportació CSV i PDF", "free": "—", "pro": "✓" },
-      { "feature": "Gràfics", "free": "—", "pro": "✓" },
-      { "feature": "Escaneig de tiquets (despeses automàtiques)", "free": "—", "pro": "✓" }
+      { "feature": "Despeses recurrents", "free": "✗", "pro": "✓" },
+      { "feature": "Exportació CSV i PDF", "free": "✗", "pro": "✓" },
+      { "feature": "Gràfiques per projecte, període o data", "free": "✗", "pro": "✓" },
+      { "feature": "Escaneig automàtic de tiquets", "free": "✗", "pro": "✓" }
     ],
     "permissionNote": "Tots els permisos (càmera, contactes, notificacions) segueixen les polítiques de privacitat d’Apple i Google.",
     "screenshotsTitle": "Captures",
@@ -159,7 +157,7 @@
     ]
   },
   "terms": {
-    "title": "Condicions del servei",
+    "title": "Condicions del servei · Dividim",
     "description": "Condicions d'ús de l'app Dividim i el web.",
     "updated": "Darrera actualització: 22 de març de 2025",
     "p1": "Aquest és un text de prova per a les condicions del servei de Dividim. Substitueix-lo per les condicions reals: elegibilitat, ús acceptable, exempcions, limitació de responsabilitat i resolució.",
@@ -172,7 +170,7 @@
     "p5": "Per a preguntes sobre aquestes condicions, escriu a"
   },
   "contact": {
-    "title": "Contacte",
+    "title": "Contacte · Dividim",
     "description": "Contacta amb el suport de Dividim.",
     "intro": "Ens encantaria saber de tu. Per suport, comentaris o premsa, escriu-nos per correu.",
     "formSoon": "El formulari web estarà disponible aviat. De moment, utilitza el correu de sota.",

@@ -11,12 +11,9 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "Dividim",
-    template: "%s · Dividim",
-  },
+  title: "Dividim",
   description:
-    "Split expenses easily with friends. Dividim for iOS and Android — Freemium and Pro.",
+    "Split simply. Dividim for iOS and Android — Freemium and Pro.",
   other: {
     "apple-itunes-app": `app-id=${APP_STORE_ID}`,
   },
@@ -30,10 +27,10 @@ export default function RootLayout({
   return (
     <html
       lang="ca"
-      className={`${geistSans.variable} min-h-full scroll-smooth antialiased`}
+      className={`${geistSans.variable} min-h-dvh scroll-smooth antialiased`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-zinc-50 font-sans text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
+      <body className="flex min-h-dvh flex-col bg-zinc-50 font-sans text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
         <LocaleHtmlAttr />
         {children}
       </body>

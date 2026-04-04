@@ -4,6 +4,20 @@ type PricingComparisonProps = {
   dict: Dictionary;
 };
 
+function CompareCellValue({ value }: { value: string }) {
+  if (value === "✓") {
+    return (
+      <span className="font-semibold text-emerald-600 dark:text-emerald-400">✓</span>
+    );
+  }
+  if (value === "✗") {
+    return (
+      <span className="font-semibold text-red-600 dark:text-red-400">✗</span>
+    );
+  }
+  return <>{value}</>;
+}
+
 export function PricingComparison({ dict }: PricingComparisonProps) {
   const { home: h } = dict;
   const rows = h.compareRows;
@@ -17,50 +31,6 @@ export function PricingComparison({ dict }: PricingComparisonProps) {
         <p className="mx-auto mt-3 max-w-2xl text-pretty text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
           {h.featuresSubtitle}
         </p>
-      </div>
-
-      <div className="grid gap-6 md:grid-cols-2 md:gap-8">
-        <div className="flex flex-col rounded-3xl border border-zinc-200/90 bg-white p-6 shadow-sm ring-1 ring-zinc-900/5 dark:border-zinc-700 dark:bg-zinc-900/40 dark:ring-white/10">
-          <div className="mb-4">
-            <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
-              {h.freemiumTitle}
-            </p>
-            <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-              {h.freemiumDesc}
-            </p>
-          </div>
-          <ul className="flex flex-1 flex-col gap-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
-            {h.freemiumFeatures.map((item) => (
-              <li key={item} className="flex gap-2">
-                <span className="mt-0.5 text-emerald-600 dark:text-emerald-400" aria-hidden>
-                  ✓
-                </span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="flex flex-col rounded-3xl border border-violet-200/90 bg-gradient-to-b from-violet-50/90 to-white p-6 shadow-md ring-2 ring-violet-500/15 dark:border-violet-500/30 dark:from-violet-950/40 dark:to-zinc-900/60 dark:ring-violet-400/20">
-          <div className="mb-4">
-            <p className="text-xs font-semibold uppercase tracking-widest text-violet-700 dark:text-violet-300">
-              {h.proTitle}
-            </p>
-            <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-              {h.proDesc}
-            </p>
-          </div>
-          <ul className="flex flex-1 flex-col gap-3 text-sm leading-relaxed text-zinc-800 dark:text-zinc-200">
-            {h.proFeatures.map((item) => (
-              <li key={item} className="flex gap-2">
-                <span className="mt-0.5 text-violet-600 dark:text-violet-400" aria-hidden>
-                  ✓
-                </span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
 
       <div>
@@ -92,10 +62,10 @@ export function PricingComparison({ dict }: PricingComparisonProps) {
                     {row.feature}
                   </td>
                   <td className="px-4 py-3 text-zinc-600 tabular-nums dark:text-zinc-400">
-                    {row.free}
+                    <CompareCellValue value={row.free} />
                   </td>
                   <td className="px-4 py-3 font-medium text-zinc-900 dark:text-zinc-100">
-                    {row.pro}
+                    <CompareCellValue value={row.pro} />
                   </td>
                 </tr>
               ))}

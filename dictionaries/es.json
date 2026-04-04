@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "Dividim",
-    "siteDescription": "Divide gastos fácilmente con amigos. Disponible en iOS y Android."
+    "siteDescription": "Divide simplemente. Disponible en iOS y Android."
   },
   "nav": {
     "home": "Inicio",
@@ -27,17 +27,15 @@
     "badge": "Próximamente"
   },
   "home": {
-    "badge": "iOS y Android",
-    "tagline": "Divide gastos fácilmente con amigos",
-    "getInTouch": "Contactar",
+    "tagline": "Divide simplemente",
     "storesHint": "Descarga Dividim en tu tienda habitual.",
-    "featuresTitle": "Freemium y Pro",
-    "featuresSubtitle": "Empieza gratis con Freemium o pasa a Pro para proyectos ilimitados, gastos recurrentes, exportaciones y gráficos.",
+    "featuresTitle": "Gratis y Pro",
+    "featuresSubtitle": "Empieza gratis o pasa a Pro para proyectos ilimitados, gastos recurrentes, exportaciones y gráficos.",
     "freemiumTitle": "Freemium",
     "freemiumDesc": "Ideal para empezar",
     "freemiumFeatures": [
       "1 proyecto activo",
-      "Añade gastos básicos",
+      "Añade gastos ilimitados",
       "Añadir fotos de tickets a los gastos",
       "Notificaciones push"
     ],
@@ -47,7 +45,7 @@
       "Proyectos ilimitados",
       "Gastos recurrentes",
       "Comparte y exporta CSV y PDF",
-      "Gráficos",
+      "Gráficas por proyecto, periodo o fecha",
       "Escaneo de tickets para crear gastos automáticamente"
     ],
     "compareTitle": "Comparativa rápida",
@@ -56,13 +54,13 @@
     "compareColPro": "Pro",
     "compareRows": [
       { "feature": "Proyectos activos", "free": "1", "pro": "Ilimitados" },
-      { "feature": "Gastos básicos", "free": "✓", "pro": "✓" },
-      { "feature": "Fotos de tickets (adjuntar a gastos)", "free": "✓", "pro": "✓" },
+      { "feature": "Gastos ilimitados", "free": "✓", "pro": "✓" },
+      { "feature": "Adjuntar fotos de tickets", "free": "✓", "pro": "✓" },
       { "feature": "Notificaciones push", "free": "✓", "pro": "✓" },
-      { "feature": "Gastos recurrentes", "free": "—", "pro": "✓" },
-      { "feature": "Exportación CSV y PDF", "free": "—", "pro": "✓" },
-      { "feature": "Gráficos", "free": "—", "pro": "✓" },
-      { "feature": "Escaneo de tickets (gastos automáticos desde el ticket)", "free": "—", "pro": "✓" }
+      { "feature": "Gastos recurrentes", "free": "✗", "pro": "✓" },
+      { "feature": "Exportación CSV y PDF", "free": "✗", "pro": "✓" },
+      { "feature": "Gráficas por proyecto, periodo o fecha", "free": "✗", "pro": "✓" },
+      { "feature": "Escaneo automático de tickets", "free": "✗", "pro": "✓" }
     ],
     "permissionNote": "Todos los permisos (cámara, contactos, notificaciones) siguen las políticas de privacidad de Apple y Google.",
     "screenshotsTitle": "Capturas",
@@ -159,7 +157,7 @@
     ]
   },
   "terms": {
-    "title": "Términos del servicio",
+    "title": "Términos del servicio · Dividim",
     "description": "Condiciones de uso de la app Dividim y el sitio web.",
     "updated": "Última actualización: 22 de marzo de 2025",
     "p1": "Este es un texto de ejemplo para los términos del servicio de Dividim. Sustitúyelo por tus términos reales: elegibilidad, uso aceptable, descargos, limitación de responsabilidad y resolución.",
@@ -172,7 +170,7 @@
     "p5": "Para preguntas sobre estos términos, escribe a"
   },
   "contact": {
-    "title": "Contacto",
+    "title": "Contacto · Dividim",
     "description": "Contacta con el soporte de Dividim.",
     "intro": "Nos encantaría saber de ti. Para soporte, comentarios o prensa, escríbenos por correo.",
     "formSoon": "El formulario web estará disponible pronto. Por ahora, usa el correo de abajo.",

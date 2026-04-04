@@ -22,9 +22,6 @@ export default async function HomePage({ params }: PageProps) {
   return (
     <PageContainer>
       <section className="text-center">
-        <p className="mb-6 text-sm font-medium uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
-          {dict.home.badge}
-        </p>
         <div className="flex justify-center">
           <DividimLogo
             heightClass="h-28 sm:h-32 md:h-36"
@@ -32,23 +29,15 @@ export default async function HomePage({ params }: PageProps) {
           />
         </div>
         <h1 className="sr-only">Dividim</h1>
-        <p className="mx-auto mt-5 max-w-lg text-pretty text-lg leading-relaxed text-zinc-600 md:text-xl dark:text-zinc-400">
+        <p className="mx-auto mt-2 max-w-lg text-pretty text-lg leading-relaxed text-zinc-600 md:mt-3 md:text-xl dark:text-zinc-400">
           {dict.home.tagline}
         </p>
-        <p className="mx-auto mt-3 max-w-md text-sm text-zinc-500 dark:text-zinc-500">
+        <p className="mx-auto mt-24 max-w-md text-sm text-zinc-500 md:mt-28 dark:text-zinc-500">
           {dict.home.storesHint}
         </p>
-        <div className="mt-10 flex flex-col items-stretch gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center">
+        <div className="mt-5 flex flex-col items-stretch gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center md:mt-6">
           <AppStoreButton dict={dict} />
           <GooglePlayButton dict={dict} />
-        </div>
-        <div className="mt-6">
-          <Link
-            href={localizedPath(locale, "contact")}
-            className="text-sm font-medium text-zinc-600 underline-offset-4 transition-colors hover:text-zinc-900 hover:underline dark:text-zinc-400 dark:hover:text-zinc-100"
-          >
-            {dict.home.getInTouch}
-          </Link>
         </div>
       </section>
 

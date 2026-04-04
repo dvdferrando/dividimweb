@@ -21,7 +21,6 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
 
   return {
-    title: dict.meta.siteTitle,
     description: dict.meta.siteDescription,
     openGraph: {
       title: dict.meta.siteTitle,
@@ -54,7 +53,7 @@ export default async function LocaleLayout({
   return (
     <>
       <Header dict={dict} locale={locale} />
-      <main className="w-full grow">{children}</main>
+      <main className="w-full min-w-0 shrink-0 grow">{children}</main>
       <Footer dict={dict} locale={locale} />
     </>
   );

@@ -8,7 +8,7 @@ export const googlePlayUrl =
   process.env.NEXT_PUBLIC_GOOGLE_PLAY_URL ??
   "https://play.google.com/store/apps/details?id=app.dividim";
 
-export const supportEmail = "support@dividim.cat";
+export const supportEmail = "suport@dividim.cat";
 
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://dividim.cat";

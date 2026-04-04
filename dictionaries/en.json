@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "Dividim",
-    "siteDescription": "Split expenses easily with friends. Available on iOS and Android."
+    "siteDescription": "Split simply. Available on iOS and Android."
   },
   "nav": {
     "home": "Home",
@@ -27,17 +27,15 @@
     "badge": "Coming soon"
   },
   "home": {
-    "badge": "iOS & Android",
-    "tagline": "Split expenses easily with friends",
-    "getInTouch": "Get in touch",
+    "tagline": "Split simply",
     "storesHint": "Download Dividim from your favourite store.",
-    "featuresTitle": "Freemium vs Pro",
-    "featuresSubtitle": "Start free with Freemium or upgrade to Pro for unlimited projects, recurring expenses, exports and charts.",
+    "featuresTitle": "Free and Pro",
+    "featuresSubtitle": "Start for free or upgrade to Pro for unlimited projects, recurring expenses, exports and charts.",
     "freemiumTitle": "Freemium",
     "freemiumDesc": "Great to get started",
     "freemiumFeatures": [
       "1 active project",
-      "Add basic expenses",
+      "Add unlimited expenses",
       "Add receipt photos to expenses",
       "Push notifications"
     ],
@@ -47,7 +45,7 @@
       "Unlimited projects",
       "Recurring expenses",
       "Share and export CSV & PDF",
-      "Charts",
+      "Charts by project, period or date",
       "Scan receipts to create expenses automatically"
     ],
     "compareTitle": "Quick comparison",
@@ -56,13 +54,13 @@
     "compareColPro": "Pro",
     "compareRows": [
       { "feature": "Active projects", "free": "1", "pro": "Unlimited" },
-      { "feature": "Basic expenses", "free": "✓", "pro": "✓" },
-      { "feature": "Receipt photos (attach to expenses)", "free": "✓", "pro": "✓" },
+      { "feature": "Unlimited expenses", "free": "✓", "pro": "✓" },
+      { "feature": "Attach receipt photos", "free": "✓", "pro": "✓" },
       { "feature": "Push notifications", "free": "✓", "pro": "✓" },
-      { "feature": "Recurring expenses", "free": "—", "pro": "✓" },
-      { "feature": "CSV & PDF export", "free": "—", "pro": "✓" },
-      { "feature": "Charts", "free": "—", "pro": "✓" },
-      { "feature": "Receipt scanning (auto-create expenses)", "free": "—", "pro": "✓" }
+      { "feature": "Recurring expenses", "free": "✗", "pro": "✓" },
+      { "feature": "CSV & PDF export", "free": "✗", "pro": "✓" },
+      { "feature": "Charts by project, period or date", "free": "✗", "pro": "✓" },
+      { "feature": "Automatic receipt scanning", "free": "✗", "pro": "✓" }
     ],
     "permissionNote": "All permissions (camera, contacts, notifications) follow Apple and Google privacy policies.",
     "screenshotsTitle": "Screenshots",
@@ -159,7 +157,7 @@
     ]
   },
   "terms": {
-    "title": "Terms of Service",
+    "title": "Terms of Service · Dividim",
     "description": "Terms governing use of the Dividim app and website.",
     "updated": "Last updated: March 22, 2025",
     "p1": "This is placeholder text for the Dividim terms of service. Replace it with your real terms covering eligibility, acceptable use, disclaimers, limitation of liability, and termination.",
@@ -172,7 +170,7 @@
     "p5": "For questions about these terms, contact"
   },
   "contact": {
-    "title": "Contact",
+    "title": "Contact · Dividim",
     "description": "Contact Dividim support.",
     "intro": "We'd love to hear from you. For support, feedback, or press inquiries, reach out by email.",
     "formSoon": "A web form is coming soon. For now, please use the email below.",
